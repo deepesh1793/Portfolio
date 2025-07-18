@@ -1,0 +1,26 @@
+.about {
+  background-color: rgb(31, 29, 29);
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+}
+
+.about-name {
+  color: wheat;
+  font-size: 60px;
+  font-weight: 700;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 250px;
+  padding-bottom: 8px;
+}
+
+.about-description {
+  color: rgb(64, 245, 64);
+  font-size: 25px;
+  font-weight: 400;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
