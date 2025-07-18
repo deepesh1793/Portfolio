@@ -2,6 +2,7 @@ body {
   font-family: Roboto, Arial;
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 html {
@@ -11,4 +12,16 @@ html {
 a {
   text-decoration: none;
   color: inherit;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav li {
+  margin: 0;
+  padding: 0;
 }

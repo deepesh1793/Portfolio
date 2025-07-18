@@ -4,10 +4,10 @@
   margin: 0;
 }
 
-.footer p {
+.footer-text {
   color: rgb(211, 198, 198);
   text-align: right;
-  padding-right: 40px;
-  padding-top: 32px;
+  padding-right: 5vw;
+  padding-top: 5vh;
   margin: 0;
 }

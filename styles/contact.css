@@ -1,6 +1,6 @@
 .contact {
   background-color: rgb(31, 29, 29);
-  height: 450px;
+  min-height: 450px;
   margin: 0;
   border-bottom: solid rgb(167, 0, 0) 4px;
 }
@@ -27,8 +27,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 50px;
-  cursor: pointer;
+  max-width: 800px;
+  flex-wrap: wrap;
+  margin: 50px auto 0 auto;
 }
 
 .contact-item {
@@ -36,20 +37,16 @@
   display: flex;
   align-items: center;
   margin-right: 30px;
-  transition: padding-top 0.3s ease;
+  transition: transform 0.3s ease;
+  cursor: pointer;
 }
 
-.contact-item:hover .contact-icon {
-  padding-top: 10px;
-}
-
-.contact-item:hover .contact-type {
-  padding-top: 10px;
+.contact-item:hover {
+  transform: translateY(5px);
 }
 
 .contact-icon {
   height: 24px;
-  transition: padding-top 0.3s ease;
 }
 
 .contact-type {
@@ -58,5 +55,4 @@
   vertical-align: middle;
   padding-left: 3px;
   text-wrap: nowrap;
-  transition: padding-top 0.3s ease;
 }
