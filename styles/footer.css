@@ -1,0 +1,13 @@
+.footer {
+  background-color: rgb(31, 29, 29);
+  height: 80px;
+  margin: 0;
+}
+
+.footer p {
+  color: rgb(211, 198, 198);
+  text-align: right;
+  padding-right: 40px;
+  padding-top: 32px;
+  margin: 0;
+}
