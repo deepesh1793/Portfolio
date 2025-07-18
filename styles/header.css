@@ -1,0 +1,29 @@
+.header {
+  background-color: rgb(167, 0, 0);
+  height: 65px;
+  color: rgb(211, 198, 198);
+  position: fixed;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  font-size: 22px;
+  font-weight: 500;
+  padding-right: 20px;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.header-about,
+.header-work,
+.header-contact {
+  padding: 20px;
+  cursor: pointer;
+  margin: 0;
+}
+
+.header-about:hover,
+.header-work:hover,
+.header-contact:hover {
+  background-color: #253960;
+}
