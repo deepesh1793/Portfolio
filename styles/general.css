@@ -7,6 +7,7 @@ body {
 
 html {
   scroll-behavior: smooth;
+  scroll-padding-top: 65px;
 }
 
 a {
@@ -24,4 +25,10 @@ nav ul {
 nav li {
   margin: 0;
   padding: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
 }
